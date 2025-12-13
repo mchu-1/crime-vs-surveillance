@@ -55,7 +55,7 @@ This analysis follows a strict chronological pipeline to ensure reproducibility:
 
     - **Surveillance Data**: Ingested city-level CCTV density (Cameras/1,000 people) from Comparitech (Bischoff, 2019).
     - **Homicide Data**: Ingested national intentional homicide rates (per 100k) from UNODC (2022).
-    - **Temporal Consistency**: UNODC data filtered strictly for the year **2021**. Countries without reported data for 2021 (e.g., China, United Kingdom) are excluded to prevent temporal mismatch bias.
+    - **Temporal Consistency**: UNODC data filtered strictly for the year **2021 only**. Countries without reported data for 2021 are silently excluded to ensure temporal consistency.
     - **Merging**: City data mapped to corresponding national homicide rates.
 
 2.  **Outlier Removal**:

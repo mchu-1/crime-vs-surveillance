@@ -147,7 +147,7 @@ def analyze_and_plot():
             )
         ),
         yaxis=dict(
-            title='Homicide Rate per 100K people (2021 or nearest)',
+            title='Homicide Rate per 100K people (2021)',
             titlefont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
                 size=24,  # Significantly increased for mobile readability
