@@ -1,0 +1,207 @@
+Country,Data_Year,Homicide_Rate,Region,Subregion
+Afghanistan,2021,4.0324584656778,Asia,Southern Asia
+Albania,2021,2.31608568885389,Europe,Southern Europe
+Algeria,2021,1.55268752449532,Africa,Northern Africa
+American Samoa,2019,0.0,Oceania,Polynesia
+Andorra,2020,2.58464719565779,Europe,Southern Europe
+Angola,2016,4.09826656345614,Africa,Sub-Saharan Africa
+Anguilla,2014,29.136467931675,Americas,Latin America and the Caribbean
+Antigua and Barbuda,2021,17.3255801362224,Americas,Latin America and the Caribbean
+Argentina,2021,4.62126366336244,Americas,Latin America and the Caribbean
+Armenia,2021,3.13550776151398,Asia,Western Asia
+Aruba,2014,1.93475053810249,Americas,Latin America and the Caribbean
+Australia,2021,0.743554074825619,Oceania,Australia and New Zealand
+Austria,2021,0.724875548626241,Europe,Western Europe
+Azerbaijan,2021,1.7001534193041,Asia,Western Asia
+Bahamas,2021,30.0222265391437,Americas,Latin America and the Caribbean
+Bahrain,2021,0.0665883809268237,Asia,Western Asia
+Bangladesh,2018,2.34217668208578,Asia,Southern Asia
+Barbados,2021,11.3416257157186,Americas,Latin America and the Caribbean
+Belarus,2019,2.38463165310244,Europe,Eastern Europe
+Belgium,2021,1.08030153549307,Europe,Western Europe
+Belize,2021,31.6178339760185,Americas,Latin America and the Caribbean
+Bermuda,2021,10.8278678381388,Americas,Northern America
+Bhutan,2020,2.46751324015657,Asia,Southern Asia
+Bolivia (Plurinational State of),2021,3.50161189331694,Americas,Latin America and the Caribbean
+Bosnia and Herzegovina,2021,0.986160622452258,Europe,Southern Europe
+Botswana,2021,11.3681767255945,Africa,Sub-Saharan Africa
+Brazil,2021,20.5048626655709,Americas,Latin America and the Caribbean
+British Virgin Islands,2006,8.16559833421794,Americas,Latin America and the Caribbean
+Brunei Darussalam,2013,0.486378957300791,Asia,South-eastern Asia
+Bulgaria,2021,1.29412653402161,Europe,Eastern Europe
+Burundi,2016,5.64974214487878,Africa,Sub-Saharan Africa
+Cabo Verde,2020,6.99464423976475,Africa,Sub-Saharan Africa
+Cambodia,2011,1.82033262639221,Asia,South-eastern Asia
+Cameroon,2022,6.76008919336955,Africa,Sub-Saharan Africa
+Canada,2021,2.08300518200199,Americas,Northern America
+Cayman Islands,2020,4.3677976836113,Americas,Latin America and the Caribbean
+Channel Island,2010,0.0,Europe,Northern Europe
+Chile,2021,4.65658124495601,Americas,Latin America and the Caribbean
+China,2020,0.5018560705357,Asia,Eastern Asia
+"China, Hong Kong Special Administrative Region",2021,0.307297589591109,Asia,Eastern Asia
+"China, Macao Special Administrative Region",2021,0.432026405453901,Asia,Eastern Asia
+Colombia,2021,25.5801274097033,Americas,Latin America and the Caribbean
+Cook Islands,2012,3.55639601381575,Oceania,Polynesia
+Costa Rica,2021,11.6205820666553,Americas,Latin America and the Caribbean
+Croatia,2021,0.840847880426335,Europe,Southern Europe
+Cuba,2019,4.46315139638841,Americas,Latin America and the Caribbean
+Curaçao,2007,16.9198131011414,Americas,Latin America and the Caribbean
+Cyprus,2021,1.21459779542909,Asia,Western Asia
+Czechia,2021,0.44631485186264,Europe,Eastern Europe
+Denmark,2021,0.631746832067094,Europe,Northern Europe
+Dominica,2021,14.8805095086456,Americas,Latin America and the Caribbean
+Dominican Republic,2021,10.5362752855436,Americas,Latin America and the Caribbean
+Ecuador,2021,14.1156873894402,Americas,Latin America and the Caribbean
+Egypt,2021,0.538859110197425,Africa,Northern Africa
+El Salvador,2021,17.343956146806,Americas,Latin America and the Caribbean
+Eritrea,2012,15.6075665087306,Africa,Sub-Saharan Africa
+Estonia,2021,1.95231911106406,Europe,Northern Europe
+Eswatini,2021,12.5145709802017,Africa,Sub-Saharan Africa
+Ethiopia,2012,8.51054794891045,Africa,Sub-Saharan Africa
+Fiji,2021,1.74537013300811,Oceania,Melanesia
+Finland,2021,1.28133981222055,Europe,Northern Europe
+France,2021,1.11071518973766,Europe,Western Europe
+French Guiana,2020,13.3880898304997,Americas,Latin America and the Caribbean
+French Polynesia,2009,0.37108298714383,Oceania,Polynesia
+Georgia,2020,1.18330271126699,Asia,Western Asia
+Germany,2021,0.830375419597212,Europe,Western Europe
+Ghana,2021,1.85431966533681,Africa,Sub-Saharan Africa
+Gibraltar,2010,3.20020481310804,Europe,Southern Europe
+Greece,2021,0.841244735958326,Europe,Southern Europe
+Greenland,2016,5.35131374752502,Americas,Northern America
+Grenada,2021,4.28494911622925,Americas,Latin America and the Caribbean
+Guadeloupe,2016,5.68415615612647,Americas,Latin America and the Caribbean
+Guam,2019,4.32611490161179,Oceania,Micronesia
+Guatemala,2021,20.2458705569498,Americas,Latin America and the Caribbean
+Guinea-Bissau,2017,1.11876398954435,Africa,Sub-Saharan Africa
+Guyana,2021,16.0641191344505,Americas,Latin America and the Caribbean
+Haiti,2021,14.1983189542019,Americas,Latin America and the Caribbean
+Holy See,2021,0.0,Europe,Southern Europe
+Honduras,2021,38.2025965034663,Americas,Latin America and the Caribbean
+Hungary,2021,0.772570691377117,Europe,Eastern Europe
+Iceland,2021,0.536705993798362,Europe,Northern Europe
+India,2021,2.92249230234054,Asia,Southern Asia
+Indonesia,2022,0.303768746039586,Asia,South-eastern Asia
+Iran (Islamic Republic of),2015,0.366742120327678,Asia,Southern Asia
+Iraq,2013,9.46375217111484,Asia,Western Asia
+Iraq (Central Iraq),2021,15.3974059474885,Asia,Western Asia
+Iraq (Kurdistan Region),2013,2.24624603719703,Asia,Western Asia
+Ireland,2021,0.437512696568737,Europe,Northern Europe
+Isle of Man,2016,0.0,Europe,Northern Europe
+Israel,2021,1.9344902218508,Asia,Western Asia
+Italy,2021,0.50728829294141,Europe,Southern Europe
+Jamaica,2021,51.9438139904003,Americas,Latin America and the Caribbean
+Japan,2021,0.226767585297115,Asia,Eastern Asia
+Jordan,2021,1.03014940057956,Asia,Western Asia
+Kazakhstan,2021,2.84649159527772,Asia,Central Asia
+Kenya,2021,5.25374641584713,Africa,Sub-Saharan Africa
+Kiribati,2012,7.12479070927292,Oceania,Micronesia
+Kosovo under UNSCR 1244,2021,1.89497747704421,Europe,Southern Europe
+Kuwait,2020,0.249991818449578,Asia,Western Asia
+Latvia,2021,3.02293132059141,Europe,Northern Europe
+Lebanon,2020,2.24466989542556,Asia,Western Asia
+Lesotho,2008,38.2397413122181,Africa,Sub-Saharan Africa
+Liberia,2012,3.08709483452429,Africa,Sub-Saharan Africa
+Liechtenstein,2021,5.12242598094458,Europe,Western Europe
+Lithuania,2021,2.57650105788629,Europe,Northern Europe
+Luxembourg,2021,0.624732536382861,Europe,Western Europe
+Madagascar,2015,0.373622965856465,Africa,Sub-Saharan Africa
+Malawi,2012,1.77598671180007,Africa,Sub-Saharan Africa
+Malaysia,2021,0.708818550137325,Asia,South-eastern Asia
+Maldives,2019,0.615093155858455,Asia,Southern Asia
+Malta,2021,0.38140534520521,Europe,Southern Europe
+Marshall Islands,1994,4.19186150089601,Oceania,Micronesia
+Martinique,2009,2.75329707324521,Americas,Latin America and the Caribbean
+Mauritania,2020,0.999971522550119,Africa,Sub-Saharan Africa
+Mauritius,2021,2.65703154091809,Africa,Sub-Saharan Africa
+Mayotte,2009,5.9436688782068,Africa,Sub-Saharan Africa
+Mexico,2021,27.9675034061893,Americas,Latin America and the Caribbean
+Micronesia (Federated States of),2019,0.906766290056401,Oceania,Micronesia
+Monaco,2015,0.0,Europe,Western Europe
+Mongolia,2021,6.16826672303943,Asia,Eastern Asia
+Montenegro,2021,2.48405855422824,Europe,Southern Europe
+Montserrat,2018,0.0,Americas,Latin America and the Caribbean
+Morocco,2021,1.93752077304373,Africa,Northern Africa
+Mozambique,2011,3.58999788532633,Africa,Sub-Saharan Africa
+Myanmar,2021,28.6567343550508,Asia,South-eastern Asia
+Namibia,2021,11.2077806904171,Africa,Sub-Saharan Africa
+Nepal,2020,2.13004129984372,Asia,Southern Asia
+Netherlands (Kingdom of the),2021,0.710637312796065,Europe,Western Europe
+New Caledonia,2009,3.10982139906977,Oceania,Melanesia
+New Zealand,2021,1.15511953382508,Oceania,Australia and New Zealand
+Nicaragua,2021,11.3473196321723,Americas,Latin America and the Caribbean
+Niger,2012,4.41784034939735,Africa,Sub-Saharan Africa
+Nigeria,2023,15.7466808233499,Africa,Sub-Saharan Africa
+North Macedonia,2021,0.756303996391349,Europe,Southern Europe
+Norway,2021,0.536233629966067,Europe,Northern Europe
+Oman,2021,0.24442141451561,Asia,Western Asia
+Pakistan,2021,3.78657227562101,Asia,Southern Asia
+Palau,2018,11.2268096213758,Oceania,Micronesia
+Panama,2021,12.6570480772218,Americas,Latin America and the Caribbean
+Papua New Guinea,2010,9.34037927179888,Oceania,Melanesia
+Paraguay,2021,7.85436422886151,Americas,Latin America and the Caribbean
+Peru,2021,8.60480803979216,Americas,Latin America and the Caribbean
+Philippines,2023,4.34759149828352,Asia,South-eastern Asia
+Poland,2021,0.717659927064458,Europe,Eastern Europe
+Portugal,2021,0.789147831496343,Europe,Southern Europe
+Puerto Rico,2021,19.4269659812923,Americas,Latin America and the Caribbean
+Qatar,2021,0.319717852547547,Asia,Western Asia
+Republic of Korea,2021,0.472531479878428,Asia,Eastern Asia
+Republic of Moldova,2021,2.18269955950808,Europe,Eastern Europe
+Romania,2021,1.26765356960595,Europe,Eastern Europe
+Russian Federation,2021,6.76512531955806,Europe,Eastern Europe
+Rwanda,2020,3.61247427164444,Africa,Sub-Saharan Africa
+Réunion,2009,1.78897810588961,Africa,Sub-Saharan Africa
+Saint Helena,2009,0.0,Africa,Sub-Saharan Africa
+Saint Kitts and Nevis,2021,29.9381990034857,Americas,Latin America and the Caribbean
+Saint Lucia,2021,39.2108535642666,Americas,Latin America and the Caribbean
+Saint Martin (French Part),2016,26.8997982515131,Americas,Latin America and the Caribbean
+Saint Pierre and Miquelon,2009,16.5851231445393,Americas,Northern America
+Saint Vincent and the Grenadines,2021,31.1159945935959,Americas,Latin America and the Caribbean
+Samoa,2018,6.26258538794308,Oceania,Polynesia
+San Marino,2011,0.0,Europe,Southern Europe
+Sao Tome and Principe,2011,3.23189666549062,Africa,Sub-Saharan Africa
+Saudi Arabia,2019,0.935259944754359,Asia,Western Asia
+Serbia,2021,1.1264836301447,Europe,Southern Europe
+Seychelles,2021,4.06545380628113,Africa,Sub-Saharan Africa
+Sierra Leone,2020,2.22431228940123,Africa,Sub-Saharan Africa
+Singapore,2021,0.108180423309996,Asia,South-eastern Asia
+Slovakia,2021,1.0105169087957,Europe,Eastern Europe
+Slovenia,2021,0.425835133669648,Europe,Southern Europe
+Solomon Islands,2008,3.73435012480591,Oceania,Melanesia
+South Africa,2021,40.9429825270973,Africa,Sub-Saharan Africa
+South Sudan,2012,13.9825812737537,Africa,Sub-Saharan Africa
+Spain,2021,0.607512242916661,Europe,Southern Europe
+Sri Lanka,2019,3.31094038448808,Asia,Southern Asia
+State of Palestine,2021,0.655695277576543,Asia,Western Asia
+Suriname,2021,5.66438365032303,Americas,Latin America and the Caribbean
+Sweden,2021,1.08485573554827,Europe,Northern Europe
+Switzerland,2021,0.482369204585241,Europe,Western Europe
+Syrian Arab Republic,2010,2.05938679956635,Asia,Western Asia
+Tajikistan,2020,0.892370798940089,Asia,Central Asia
+Thailand,2016,1.53542539323913,Asia,South-eastern Asia
+Timor-Leste,2015,4.06594633033822,Asia,South-eastern Asia
+Tonga,2020,3.91083300743058,Oceania,Polynesia
+Trinidad and Tobago,2021,30.1132439458432,Americas,Latin America and the Caribbean
+Tunisia,2020,4.69348024650292,Africa,Northern Africa
+Turkmenistan,2015,1.01355101620555,Asia,Central Asia
+Turks and Caicos Islands,2021,30.9436714666195,Americas,Latin America and the Caribbean
+Tuvalu,2019,0.0,Oceania,Polynesia
+Türkiye,2021,2.49751250926437,Asia,Western Asia
+Uganda,2021,8.52084677875181,Africa,Sub-Saharan Africa
+Ukraine,2021,3.77663964401616,Europe,Eastern Europe
+United Arab Emirates,2021,0.44948191080481,Asia,Western Asia
+United Kingdom (England and Wales),2021,1.14769826260967,Europe,Northern Europe
+United Kingdom (Northern Ireland),2021,1.05088048021034,Europe,Northern Europe
+United Kingdom (Scotland),2021,0.967170933776164,Europe,Northern Europe
+United Republic of Tanzania,2020,3.74921291744897,Africa,Sub-Saharan Africa
+United States Virgin Islands,2012,49.8571401177396,Americas,Latin America and the Caribbean
+United States of America,2021,6.77972198500888,Americas,Northern America
+Uruguay,2021,9.00875836787795,Americas,Latin America and the Caribbean
+Uzbekistan,2021,1.39879762685076,Asia,Central Asia
+Vanuatu,2020,0.3346065111081,Oceania,Melanesia
+Venezuela (Bolivarian Republic of),2021,19.2791045599615,Americas,Latin America and the Caribbean
+Viet Nam,2011,1.53501286347562,Asia,South-eastern Asia
+Yemen,2013,5.80971851623815,Asia,Western Asia
+Zambia,2015,5.20150860823759,Africa,Sub-Saharan Africa
+Zimbabwe,2021,6.2162875596387,Africa,Sub-Saharan Africa

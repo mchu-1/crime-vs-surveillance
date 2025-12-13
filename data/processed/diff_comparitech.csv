@@ -1,0 +1,143 @@
+Flag,City,Country,Population,Camera_Count,Cameras_per_1000,Crime Index 2025
+:jp:,Tokyo,Japan,37036200,49841,1.35,24.71
+:in:,Delhi,India,34665600,313332,9.04,59.06
+:cn:,Shanghai,China,30482100,15065778,494.25,27.5
+:bd:,Dhaka,Bangladesh,24652900,3512,0.14,61.91
+:eg:,Cairo,Egypt,23074200,48033,2.08,50.47
+:br:,São Paulo,Brazil,22990000,51346,2.23,70.07
+:mx:,Mexico City,Mexico,22752400,136920,6.02,67.33
+:cn:,Beijing,China,22596500,11168320,494.25,25.53
+:in:,Mumbai,India,22089000,82390,3.73,44.22
+:jp:,Osaka,Japan,18921600,21703,1.15,32.87
+:cn:,Chongqing,China,18171200,8981116,494.25,21.66
+:pk:,Karachi,Pakistan,18076800,50266,2.78,57.14
+:ng:,Lagos,Nigeria,17156400,6750,0.39,68.24
+:tr:,Istanbul,Turkey,16236700,179009,11.02,47.93
+:in:,Kolkata,India,15845200,13335,0.84,46.48
+:ar:,Buenos Aires,Argentina,15752300,20070,1.27,63.15
+:ph:,Manila,Philippines,15230600,4305,0.28,64.54
+:cn:,Guangzhou,China,14878700,7353797,494.25,29.37
+:pk:,Lahore,Pakistan,14825800,410297,27.67,36.96
+:cn:,Tianjin,China,14704100,7267501,494.25,33.38
+:in:,Bangalore,India,14395400,585284,40.66,54.23
+:br:,Rio de Janeiro,Brazil,13923200,54347,3.9,75.33
+:cn:,Shenzhen,China,13545400,6694814,494.25,25.27
+:ru:,Moscow,Russia,12737400,250000,19.63,35.48
+:in:,Chennai,India,12336000,106576,8.64,39.65
+:co:,Bogotá,Colombia,11795800,48995,4.15,66.4
+:id:,Jakarta,Indonesia,11634100,11071,0.95,52.68
+:pe:,Lima,Peru,11517300,29330,2.55,70.1
+:th:,Bangkok,Thailand,11391700,81113,7.12,38.88
+:fr:,Paris,France,11346800,55955,4.93,58.03
+:in:,Hyderabad,India,11337900,900000,79.38,42.92
+:cn:,Nanjing,China,10174900,5028944,494.25,13.6
+:ao:,Luanda,Angola,10027900,2255,0.22,66.94
+:kr:,Seoul,South Korea,10025800,243426,24.28,24.42
+:cn:,Chengdu,China,9998870,4941941,494.25,21.51
+:gb:,London,United Kingdom,9840740,131882,13.4,55.26
+:vn:,Ho Chi Minh City,Vietnam,9816320,79097,8.06,51.39
+:ir:,Tehran,Iran,9729740,7756,0.8,57.24
+:cn:,Xi An,China,9222080,4558013,494.25,16.53
+:in:,Ahmedabad,India,9061820,21036,2.32,31.63
+:my:,Kuala Lumpur,Malaysia,9000280,11376,1.26,60.39
+:cn:,Wuhan,China,8986480,4441568,494.25,22.71
+:cn:,Suzhou,China,8592820,4247001,494.25,11.41
+:cn:,Hangzhou,China,8591040,4246122,494.25,16.16
+:in:,Surat,India,8581730,7833,0.91,33.41
+:tz:,Dar Es Salaam,Tanzania,8561520,20,0.0,55.31
+:iq:,Baghdad,Iraq,8141120,120000,14.74,55.33
+:cn:,Shenyang,China,7974270,3941283,494.25,23.49
+:sa:,Riyadh,Saudi Arabia,7952860,14000,1.76,24.81
+:us:,New York City,United States,7936530,80303,10.12,50.83
+:cn:,Foshan,China,7817160,3863631,494.25,41.6
+:cn:,Dongguan,China,7772860,3841736,494.25,30.39
+:hk:,Hong Kong,Hong Kong,7768510,47971,6.18,21.45
+:in:,Pune,India,7525720,52065,6.92,41.26
+:cn:,Haerbin,China,7066860,3492796,494.25,
+:cl:,Santiago,Chile,6999460,25466,3.64,63.94
+:es:,Madrid,Spain,6810530,24627,3.62,28.06
+:sd:,Khartoum,Sudan,6754180,4010,0.59,39.05
+:ca:,Toronto,Canada,6491290,28075,4.33,43.52
+:za:,Johannesburg,South Africa,6444580,7852,1.22,80.78
+:br:,Belo Horizonte,Brazil,6351680,19586,3.08,59.69
+:cn:,Dalian,China,6347380,3137193,494.25,16.79
+:cn:,Qingdao,China,6217970,3073232,494.25,10.75
+:sg:,Singapore,Singapore,6157270,112999,18.35,22.7
+:cn:,Zhengzhou,China,6156140,3042672,494.25,21.05
+:cn:,Ji Nan Shandong,China,6065850,2998046,494.25,
+:ci:,Abidjan,Ivory Coast,6056880,1224,0.2,56.32
+:et:,Addis Ababa,Ethiopia,5956680,3784,0.64,49.81
+:mm:,Yangon,Myanmar,5813190,6949,1.2,49.34
+:eg:,Alexandria,Egypt,5807050,122,0.02,45.41
+:ke:,Nairobi,Kenya,5766990,17596,3.05,59.7
+:es:,Barcelona,Spain,5733250,15079,2.63,51.76
+:bd:,Chittagong,Bangladesh,5653490,848,0.15,63.94
+:vn:,Hanoi,Vietnam,5602200,26393,4.71,34.08
+:ru:,Saint Petersburg,Russia,5597340,102000,18.22,37.97
+:mx:,Guadalajara,Mexico,5578580,21310,3.82,62.22
+:tr:,Ankara,Turkey,5550490,31415,5.66,39.36
+:jp:,Fukuoka,Japan,5465920,7092,1.3,16.06
+:au:,Melbourne,Australia,5391890,14430,2.68,43.89
+:mx:,Monterrey,Mexico,5272360,7849,1.49,48.12
+:au:,Sydney,Australia,5248790,26188,4.99,34.18
+:cn:,Urumqi,China,5132170,2536575,494.25,13.92
+:cn:,Changsha,China,5128270,2534647,494.25,19.47
+:za:,Cape Town,South Africa,5063580,4549,0.9,73.66
+:br:,Brasilia,Brazil,4990930,4178,0.84,58.62
+:cn:,Kunming,China,4955680,2449345,494.25,21.74
+:cn:,Changchun,China,4891020,2417387,494.25,32.94
+:af:,Kabul,Afghanistan,4877020,90000,18.45,78.55
+:cn:,Hefei,China,4830170,2387312,494.25,13.03
+:cn:,Ningbo,China,4770300,2357721,494.25,10.71
+:cn:,Shantou,China,4737590,2341554,494.25,
+:il:,Tel Aviv,Israel,4568530,8000,1.75,26.02
+:tw:,New Taipei,Taiwan,4563850,27204,5.96,22.05
+:cn:,Shijiazhuang,China,4534990,2241419,494.25,
+:in:,Jaipur,India,4411110,2589,0.59,34.56
+:in:,Kozhikode,India,4387410,1416,0.32,40.41
+:cn:,Nanning,China,4383600,2166594,494.25,16.07
+:ca:,Montreal,Canada,4377310,11460,2.62,32.91
+:it:,Rome,Italy,4347100,22520,5.18,48.42
+:cm:,Douala,Cameroon,4346420,3400,0.78,71.08
+:br:,Recife,Brazil,4344050,11421,2.63,75.68
+:cn:,Taiyuan Shanxi,China,4305290,2127890,494.25,19.75
+:br:,Fortaleza,Brazil,4284450,12591,2.94,75.65
+:br:,Porto Alegre,Brazil,4268960,6056,1.42,70.75
+:ug:,Kampala,Uganda,4265160,3293,0.77,55.56
+:za:,Ekurhuleni,South Africa,4262130,3416,0.8,
+:mg:,Antananarivo,Madagascar,4228980,900,0.21,60.39
+:ng:,Abuja,Nigeria,4209940,55,0.01,60.13
+:cn:,Changzhou,China,4180040,2065985,494.25,10.54
+:co:,Medellín,Colombia,4172810,5788,1.39,53.3
+:ng:,Ibadan,Nigeria,4144130,10,0.0,57.32
+:in:,Lucknow,India,4132670,27245,6.59,45.52
+:cn:,Nanchang,China,4104120,2028461,494.25,20.8
+:cn:,Wenzhou,China,4093180,2023054,494.25,15.83
+:cn:,Xiamen,China,4077760,2015433,494.25,21.22
+:cn:,Fuzhou Fujian,China,4072430,2012799,494.25,30.4
+:br:,Salvador,Brazil,4029910,7576,1.88,76.76
+:cn:,Tangshan Hebei,China,4024170,1988946,494.25,
+:ma:,Casablanca,Morocco,4012310,5069,1.26,55.75
+:id:,Bekasi,Indonesia,3926050,271,0.07,37.46
+:pk:,Faisalabad,Pakistan,3892830,1457,0.37,40.82
+:br:,Curitiba,Brazil,3889140,5762,1.48,61.21
+:ng:,Port Harcourt,Nigeria,3793780,150,0.04,69.43
+:us:,Los Angeles,United States,3770958,46766,12.4,53.81
+:cn:,Guiyang,China,3736730,1846879,494.25,
+:in:,Thrissur,India,3719980,325,0.09,24.0
+:sn:,Dakar,Senegal,3658640,471,0.13,47.65
+:do:,Santo Domingo,Dominican Republic,3648110,2107,0.58,67.68
+:py:,Asunción,Paraguay,3627220,850,0.23,57.17
+:in:,Kochi,India,3604550,23966,6.65,42.04
+:de:,Berlin,Germany,3580190,8793,2.46,44.64
+:cn:,Wuxi,China,3559030,1759051,494.25,11.27
+:ye:,Sanaa,Yemen,3527430,150,0.04,51.26
+:bf:,Ouagadougou,Burkina Faso,3520820,660,0.19,39.24
+:br:,Campinas,Brazil,3491580,3000,0.86,65.68
+:kr:,Busan,South Korea,3484430,42840,12.29,23.9
+:in:,Indore,India,3482830,251500,72.21,48.18
+:ir:,Mashhad,Iran,3460660,770,0.22,49.21
+:mx:,Puebla,Mexico,3443290,13537,3.93,58.3
+:cn:,Lanzhou,China,3430880,1695712,494.25,19.61
+:kw:,Kuwait City,Kuwait,3405000,24867,7.3,28.93
+:in:,Kanpur,India,3345370,5815,1.74,45.48

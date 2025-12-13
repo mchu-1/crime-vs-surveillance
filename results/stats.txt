@@ -1,0 +1,14 @@
+--- Analysis Statistics (Excluding China) ---
+China Camera Density Z-Score: 1.56
+Original Cities (No China): 135
+Outliers excluded (Z>3): 3
+Cities remaining: 132
+
+--- City Level Correlation ---
+Pearson r: -0.404
+Spearman rho: -0.490
+
+--- Country Level Correlation ---
+Number of Countries: 47
+Pearson r: -0.114
+Spearman rho: -0.166
