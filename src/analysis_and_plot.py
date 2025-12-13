@@ -19,31 +19,8 @@ def analyze_and_plot():
     # Filter out rows with missing homicide data
     df_clean = df.dropna(subset=['Homicide_Rate', 'Cameras_per_1000']).copy()
     
-    # --- China Outlier Check ---
-    china_data = df_clean[df_clean['Country_Normalized'] == 'China']
-    if not china_data.empty:
-        china_cam = china_data['Cameras_per_1000'].values[0]
-        china_hom = china_data['Homicide_Rate'].values[0]
-        
-        # Calculate stats for the WHOLE dataset (including China) to see where it stands
-        mean_cam = df_clean['Cameras_per_1000'].mean()
-        std_cam = df_clean['Cameras_per_1000'].std()
-        
-        z_china_cam = (china_cam - mean_cam) / std_cam
-        
-        print(f"--- China Outlier Check ---")
-        print(f"China Cameras/1000: {china_cam}")
-        print(f"Global Mean Cameras: {mean_cam:.2f} (Std: {std_cam:.2f})")
-        print(f"China Camera Z-Score: {z_china_cam:.2f}")
-        if abs(z_china_cam) > 3:
-            print("CONCLUSION: China is a statistical outlier (>3 Std Devs) in camera density.")
-            print("Excluding China from main analysis...")
-            df_clean = df_clean[df_clean['Country_Normalized'] != 'China']
-        else:
-            print("CONCLUSION: China is NOT a statistical outlier in camera density.")
-            print("Keeping China in the analysis as requested.")
-    else:
-        print("China not found in dataset or already excluded.")
+    # Filter strictly for 2021 data (this silently excludes non-2021 data including some China entries if they aren't 2021)
+    df_clean = df_clean[df_clean['Data_Year'] == 2021]
 
     # --- Outlier Detection (Rest of World) ---
     # Using Z-score > 3
@@ -54,9 +31,7 @@ def analyze_and_plot():
     df_no_outliers = df_clean[(df_clean['z_cam'] <= 3) & (df_clean['z_hom'] <= 3)]
     
     with open(os.path.join(results_dir, 'stats.txt'), 'w') as f:
-        f.write("--- Analysis Statistics (Excluding China) ---\n")
-        if not china_data.empty:
-             f.write(f"China Camera Density Z-Score: {z_china_cam:.2f}\n")
+        f.write("--- Analysis Statistics (2021 Data Only) ---\n")
         f.write(f"Original Cities (No China): {len(df_clean)}\n")
         f.write(f"Outliers excluded (Z>3): {len(outliers)}\n")
         f.write(f"Cities remaining: {len(df_no_outliers)}\n\n")
@@ -196,7 +171,7 @@ def analyze_and_plot():
         hovermode='closest',
         hoverlabel=dict(
             bgcolor='white',
-            font_size=18,  # Significantly increased for mobile readability
+            font_size=20,  # Increased from 18 for value readability
             font_family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
             font_color='#1a1a1a',
             bordercolor='rgba(0, 0, 0, 0.1)'
@@ -213,7 +188,7 @@ def analyze_and_plot():
         showarrow=False,
         font=dict(
             family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            size=18,  # Significantly increased for mobile readability
+            size=24,  # Significantly increased from 18 to 24 for mobile readability
             color='#8a8a8a'
         ),
         xanchor='right',
