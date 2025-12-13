@@ -111,7 +111,7 @@ def analyze_and_plot():
         y=df_no_outliers['Homicide_Rate'],
         mode='markers',
         marker=dict(
-            size=10,  # Increased from 8 for better mobile touch targets
+            size=16,  # Significantly increased for mobile visibility
             color='rgba(100, 100, 100, 0.6)',  # Subtle gray
             line=dict(width=0.5, color='rgba(255, 255, 255, 0.8)'),
         ),
@@ -143,7 +143,7 @@ def analyze_and_plot():
             text='City Surveillance vs. Homicide',
             font=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=28,  # Increased from 24 for mobile readability
+                size=40,  # Significantly increased for mobile readability
                 color='#1a1a1a'
             ),
             x=0.5,
@@ -155,7 +155,7 @@ def analyze_and_plot():
             title='Cameras per 1,000 People (2019)',
             titlefont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=16,  # Increased from 13 for mobile readability
+                size=24,  # Significantly increased for mobile readability
                 color='#4a4a4a'
             ),
             showgrid=True,
@@ -167,7 +167,7 @@ def analyze_and_plot():
             linecolor='rgba(0, 0, 0, 0.1)',
             tickfont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=14,  # Increased from 11 for mobile readability
+                size=20,  # Significantly increased for mobile readability
                 color='#6a6a6a'
             )
         ),
@@ -175,7 +175,7 @@ def analyze_and_plot():
             title='Homicide Rate per 100K people (2021 or nearest)',
             titlefont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=16,  # Increased from 13 for mobile readability
+                size=24,  # Significantly increased for mobile readability
                 color='#4a4a4a'
             ),
             showgrid=True,
@@ -187,7 +187,7 @@ def analyze_and_plot():
             linecolor='rgba(0, 0, 0, 0.1)',
             tickfont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=14,  # Increased from 11 for mobile readability
+                size=20,  # Significantly increased for mobile readability
                 color='#6a6a6a'
             )
         ),
@@ -196,7 +196,7 @@ def analyze_and_plot():
         hovermode='closest',
         hoverlabel=dict(
             bgcolor='white',
-            font_size=14,  # Increased from 12 for mobile readability
+            font_size=18,  # Significantly increased for mobile readability
             font_family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
             font_color='#1a1a1a',
             bordercolor='rgba(0, 0, 0, 0.1)'
@@ -213,7 +213,7 @@ def analyze_and_plot():
         showarrow=False,
         font=dict(
             family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            size=13,  # Increased from 11 for mobile readability
+            size=18,  # Significantly increased for mobile readability
             color='#8a8a8a'
         ),
         xanchor='right',
@@ -230,7 +230,7 @@ def analyze_and_plot():
         showarrow=False,
         font=dict(
             family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            size=13,  # Increased from 10 for mobile readability
+            size=16,  # Significantly increased for mobile readability
             color='#5a5a5a'
         ),
         align='center',
