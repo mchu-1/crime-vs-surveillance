@@ -105,13 +105,13 @@ def analyze_and_plot():
     # Create figure with custom styling
     fig = go.Figure()
     
-    # Add scatter points with minimal, clean styling
+    # Add scatter points with minimal, clean styling - larger for mobile
     fig.add_trace(go.Scatter(
         x=df_no_outliers['Cameras_per_1000'],
         y=df_no_outliers['Homicide_Rate'],
         mode='markers',
         marker=dict(
-            size=8,
+            size=10,  # Increased from 8 for better mobile touch targets
             color='rgba(100, 100, 100, 0.6)',  # Subtle gray
             line=dict(width=0.5, color='rgba(255, 255, 255, 0.8)'),
         ),
@@ -137,13 +137,13 @@ def analyze_and_plot():
         hoverinfo='skip'
     ))
     
-    # Clean, minimal layout
+    # Clean, minimal layout with mobile-friendly font sizes
     fig.update_layout(
         title=dict(
             text='City Surveillance vs. Homicide',
             font=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=24,
+                size=28,  # Increased from 24 for mobile readability
                 color='#1a1a1a'
             ),
             x=0.5,
@@ -155,7 +155,7 @@ def analyze_and_plot():
             title='Cameras per 1,000 People (2019)',
             titlefont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=13,
+                size=16,  # Increased from 13 for mobile readability
                 color='#4a4a4a'
             ),
             showgrid=True,
@@ -167,7 +167,7 @@ def analyze_and_plot():
             linecolor='rgba(0, 0, 0, 0.1)',
             tickfont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=11,
+                size=14,  # Increased from 11 for mobile readability
                 color='#6a6a6a'
             )
         ),
@@ -175,7 +175,7 @@ def analyze_and_plot():
             title='Homicide Rate per 100K people (2021 or nearest)',
             titlefont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=13,
+                size=16,  # Increased from 13 for mobile readability
                 color='#4a4a4a'
             ),
             showgrid=True,
@@ -187,7 +187,7 @@ def analyze_and_plot():
             linecolor='rgba(0, 0, 0, 0.1)',
             tickfont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-                size=11,
+                size=14,  # Increased from 11 for mobile readability
                 color='#6a6a6a'
             )
         ),
@@ -196,17 +196,16 @@ def analyze_and_plot():
         hovermode='closest',
         hoverlabel=dict(
             bgcolor='white',
-            font_size=12,
+            font_size=14,  # Increased from 12 for mobile readability
             font_family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
             font_color='#1a1a1a',
             bordercolor='rgba(0, 0, 0, 0.1)'
         ),
-        margin=dict(l=80, r=40, t=100, b=140), # Increased bottom margin for citations
-        width=900,
-        height=700 # Increased height to accommodate footer
+        margin=dict(l=90, r=50, t=110, b=160),  # Increased margins for mobile spacing
+        autosize=True  # Enable responsive sizing
     )
     
-    # Add trendline annotation
+    # Add trendline annotation with larger font
     fig.add_annotation(
         text=f'r = {r_value:.3f}',
         xref='paper', yref='paper',
@@ -214,24 +213,24 @@ def analyze_and_plot():
         showarrow=False,
         font=dict(
             family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            size=11,
+            size=13,  # Increased from 11 for mobile readability
             color='#8a8a8a'
         ),
         xanchor='right',
         yanchor='bottom'
     )
 
-    # Add Data Source Citations with enhanced styling
+    # Add Data Source Citations with enhanced styling and larger font
     fig.add_annotation(
         text="<b>Data Sources</b><br>" + 
-             "<span style='font-size: 9px;'>Bischoff, P. (2019) 'Surveillance Camera Statistics: Which City has the Most CCTV?', <i>Comparitech</i>.<br>" +
+             "<span style='font-size: 11px;'>Bischoff, P. (2019) 'Surveillance Camera Statistics: Which City has the Most CCTV?', <i>Comparitech</i>.<br>" +
              "UNODC (2022) 'UNODC Research - Data Portal – Intentional Homicide', <i>United Nations Office on Drugs and Crime</i>.</span>",
         xref='paper', yref='paper',
         x=0.5, y=-0.15,
         showarrow=False,
         font=dict(
             family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-            size=10,
+            size=13,  # Increased from 10 for mobile readability
             color='#5a5a5a'
         ),
         align='center',
@@ -240,10 +239,19 @@ def analyze_and_plot():
         bgcolor='rgba(250, 250, 250, 0.8)',
         bordercolor='rgba(0, 0, 0, 0.05)',
         borderwidth=1,
-        borderpad=8
+        borderpad=10  # Increased padding for better mobile spacing
     )
     
-    fig.write_html(os.path.join(figures_dir, 'city_cameras_vs_homicide.html'))
+    # Write HTML with responsive configuration
+    config = {
+        'responsive': True,  # Enable responsive resizing
+        'displayModeBar': True,
+        'displaylogo': False
+    }
+    fig.write_html(
+        os.path.join(figures_dir, 'city_cameras_vs_homicide.html'),
+        config=config
+    )
     
     print("Interactive plot saved to results/figures/city_cameras_vs_homicide.html")
 
