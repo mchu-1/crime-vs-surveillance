@@ -127,7 +127,7 @@ def analyze_and_plot():
             yanchor='top'
         ),
         xaxis=dict(
-            title='Cameras per 1,000 People (2019)',
+            title='Cameras per 1,000 people (2019)',
             titlefont=dict(
                 family='Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
                 size=24,  # Significantly increased for mobile readability
